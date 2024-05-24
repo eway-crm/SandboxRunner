@@ -1,4 +1,8 @@
+# SandboxRunner
+
 eWay-CRM [ExecutableTriggers](https://github.com/eway-crm/triggers) are C# apps that run inside Sandbox environment. A lot of NuGet packages are not able to run in restricted environment.
+
+When you use a code that is restricted `System.Security.Permissions.SecurityPermission` exception is triggered.
 
 You can use SandboxRunner to test whether your code will work inside restricted environment or not.
 
